@@ -5,6 +5,7 @@ TASK-1: TO DO LIST APP using html,css and javascript
 ![Uploading Screenshot 2024-07-19 133816.png…]()
 
 
+
 NAME : JENIFER Y
 COMPANY : CODTECH IT SOLUTIONS
 ID: CT4WD2714
@@ -50,37 +51,37 @@ Sets the title of the web page displayed in the browser tab or title bar.
 
 Links an external CSS file (style.css) to style the content and layout of the HTML document.
 <body>:
-* { ... }:
+
 
 Applies styles to all elements (*), setting margin and padding to zero (margin: 0; padding: 0;), using the 'Poppins' font as default (font-family: 'poppins', sans-serif;), and ensuring the box-sizing property includes padding and border in the element's total width and height calculations (box-sizing: border-box;).
-.container { ... }:
+.container 
 
 Defines the styling for a container element that wraps the entire content (width: 100%; min-height: 100vh;). It sets a background gradient (background: linear-gradient(335deg, #C4DFE6, #66A5AD);) and adds padding (padding: 10px;).
-.todo-app { ... }:
+.todo-app 
 
 Styles the main todo list application container (width: 100%; max-width: 540px; background-color: whitesmoke;). It centers this container on the page (margin: 100px auto 20px;), adds internal padding (padding: 40px 30px 70px;), and rounds the corners with a border-radius (border-radius: 10px;).
-.row { ... }:
+.row 
 
 Styles the row within the todo app (display: flex; align-items: center; justify-content: space-between; background-color: #edeef0; padding: 3px; border-radius: 20px; margin-bottom: 25px; margin-top: 10px;). It uses Flexbox to arrange items, adds background color, padding, and rounded corners.
-input { ... }:
+input 
 
 Styles the input field (flex: 1; border: none; outline: none; background: transparent; padding: 8px; font-size: 14px;). It spans the full width (flex: 1;), removes borders and outlines, sets a transparent background, and adjusts padding and font size.
-button { ... }:
+button 
 
 Defines styles for the button (border: none; outline: none; padding: 16px 50px; background: #ff5945; color: #fff; font-size: 16px; cursor: pointer; border-radius: 40px;). It removes borders and outlines, sets padding, background color, text color, font size, cursor type, and border-radius.
-ul li { ... }:
+ul li :
 
 Styles list items within the unordered list (list-style: none; font-size: 17px; padding: 12px 8px 12px 50px; user-select: none; cursor: pointer; position: relative;). It removes default list styles, sets padding, prevents text selection (user-select: none;), adds a pointer cursor, and positions items relatively.
-ul li::before { ... }:
+ul li::before :
 
 Adds a pseudo-element (::before) to list items, representing an unchecked checkbox (content: ''; position: absolute; height: 28px; width: 28px; border-radius: 50%; background-image: url(images/unchecked.png); background-size: cover; background-position: center; top: 12px; left: 8px;).
-ul li.hidden { ... }:
+ul li.hidden :
 
 Styles list items with a class of hidden (e.g., completed tasks) (color: #555; text-decoration: line-through;). It changes text color to gray (#555) and applies a line-through text decoration.
-ul li.hidden::before { ... }:
+ul li.hidden::before :
 
 Modifies the pseudo-element (::before) of hidden list items to display a checked checkbox (background-image: url(images/checked.png);).
-ul li span { ... }:
+ul li span :
 
 Styles a span element within list items (position: absolute; right: 0; top: 5px; width: 50px; height: 40px; font-size: 22px; color: #555; line-height: 40px; text-align: center; border-radius: 50%;). It positions the span at the top-right, sets dimensions, font size, color, text alignment, and adds rounded corners.
 ul li span:hover { ... }:
